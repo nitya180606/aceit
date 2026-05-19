@@ -1,4 +1,5 @@
-require('dotenv').config(); // ← MUST be first line
+require('dotenv').config();
+console.log('MONGODB_URI:', process.env.MONGODB_URI); // debug line // ← MUST be first line
 
 const express = require('express');
 const cors = require('cors');
